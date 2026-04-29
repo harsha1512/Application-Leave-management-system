@@ -2,7 +2,7 @@
 session_start();
 include("db.php");
 if ($_SESSION['user']['role'] != 'admin') {
-    die("Unauthorized action");
+    die("Unauthorized action new new new");
 }
 
 if (isset($_GET['action'])) {
