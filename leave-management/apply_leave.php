@@ -3,7 +3,7 @@ session_start();
 include("db.php");
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     $uid = $_SESSION['user']['id'];
-    $type = $_POST['leave_type'];
+    $type = $_POST['leave_type_needed'];
     $from = $_POST['from'];
     $to = $_POST['to'];
     $reason = $_POST['reason'];
